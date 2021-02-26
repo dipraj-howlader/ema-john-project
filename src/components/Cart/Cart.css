@@ -1,0 +1,11 @@
+.cart-style{
+    border: 1px solid whitesmoke;
+    background-color: bisque;
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.cart-style h4{
+    text-align: center;
+}
