@@ -6,8 +6,7 @@ import Shop from './components/Shop/Shop';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import Review from './components/Review/Review';
 import Inventory from './components/Inventory/Inventory';
@@ -33,7 +32,7 @@ function App() {
         <Inventory></Inventory>
           </Route>
           
-          <Route to="/product/:id">
+          <Route path="/product/:id">
         <ProductDetail></ProductDetail>
           </Route>
           <Route exact path="/">
